@@ -1,0 +1,147 @@
+
+    body {
+    background: linear-gradient(90deg, #CC6464 0%, #D520D5 100%);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2 {
+    font-size: 30px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+main {
+    padding: 20px;
+}
+
+.banner {
+    background-color: #ffd700;
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: #F11111;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.product:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+main {
+    padding: 20px;
+}
+
+.banner {
+    background-color: #ffd700;
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: #F11111;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.product:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}

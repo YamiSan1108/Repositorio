@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+    
+</head>
+      body {
+            background: linear-gradient(90deg, #FF6666 0%, #FF20C0 100%);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.1rem;
+        }
+
+        .products-grid {
+            padding: 20px;
+        }
+
+        .product-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .product-item h3 {
+            margin-top: 0;
+        }
+
+        .no-underline::after {
+            content: "";
+            display: block;
+            height: 1px;
+            width: 100%;
+            background-color: #fff;
+            margin-top: 10px;
+        }
+    </style>
+    <header>
+        <h1>Produtos</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">Sobre a empresa</a></li>
+                <li><a href="contact.html">Contatos</a></li>
+                <li><a href="index.html">Retornar à página principal</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="products-grid">
+            <h2>Produtos para o seu pet</h2>
+            <div class="product-item">
+                <img src="cao2.jpeg" alt="Dog Food">
+                <h3>Ração premium para cachorro</h3>
+                <p>Nutrição completa e equilibrada para o seu cão.</p>
+                
+            </div>
+            <div class="product-item">
+                <h3>Brinquedos de cachorro duráveis</h3>
+                <p>Mantenha o seu cão entretido e ativo com os nossos brinquedos  resistentes.</p>
+                
+            </div>
+            <div class="product-item">
+              
+                <h3>Cama de cachorro</h3>
+                <p>Dê ao seu cão um lugar acolhedor para dormir com as nossas camas de pelúcia.</p>
+                
+            </div>
+        </section>
+        <section class="products-grid">
+            <h2>Produtos de Gato</h2>
+            <div class="product-item">
+                <h3>Ração premium de gato</h3>
+                <p>Alimento nutritivo e delicioso para o seu gato.</p>
+                
+            </div>
+            <div class="product-item">
+              
+                <h3>Brinquedos de gato</h3>
+                <p>Mantenha o seu gato ocupado e ativo com os nossos brinquedos divertidos.</p>
+                
+            </div>
+            <div class="product-item">
+                
+                <h3>Areia de qualidade para gatos</h3>
+                <p>Mantenha a sua caixa de areia limpa e sem odores com a nossa areia de alta qualidade.</p>
+                
+            </div>
+        </section>
+        <section class="products-grid">
+            <h2>Produtos para peixe</h2>
+            <div class="product-item">
+                
+                <h3>Aquário estiloso</h3>
+                <p>Adicione alguma beleza aquática à sua casa com os nossos elegantes aquários.</p>
+                
+            </div>
+            <div class="product-item
